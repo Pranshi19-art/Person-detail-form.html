@@ -5,21 +5,26 @@
     <title>Personal Details Form</title>
 </head>
 
-<body>
+<!-- Background color -->
 
-    <h2>Personal Information Form</h2>
+<body bgcolor="#f8d8ff" text="#4b0082">
 
-    <form>
-        <fieldset>
-            <legend>Enter Your Details</legend>
+    <marquee>✨ Welcome to the Personal Details Form ✨</marquee>
+
+    <center>
+        <h2>
+            <font color="#6a0dad">Personal Details Form</font>
+        </h2>
+
+        <form>
 
             <label>Name:</label><br>
             <input type="text" placeholder="Enter your name"><br><br>
 
-            <label>Email:</label><br>
+            <label>Email ID:</label><br>
             <input type="email" placeholder="Enter your email"><br><br>
 
-            <label>Contact Number (Masked):</label><br>
+            <label>Contact Number (Hidden):</label><br>
             <input type="password" placeholder="Enter contact number"><br><br>
 
             <label>Gender:</label><br>
@@ -28,19 +33,16 @@
             <input type="radio" name="gender" value="Other"> Other <br><br>
 
             <label>Favourite City:</label><br>
-            <select>
-                <option>Select a City</option>
-                <option>Delhi</option>
-                <option>Mumbai</option>
-                <option>Chennai</option>
-                <option>Bangalore</option>
-                <option>Kolkata</option>
-            </select><br><br>
+            <input type="checkbox" value="Delhi"> Delhi <br>
+            <input type="checkbox" value="Mumbai"> Mumbai <br>
+            <input type="checkbox" value="Chennai"> Chennai <br>
+            <input type="checkbox" value="Kolkata"> Kolkata <br>
+            <input type="checkbox" value="Bangalore"> Bangalore <br><br>
 
             <input type="submit" value="Submit">
 
-        </fieldset>
-    </form>
+        </form>
+    </center>
 
 </body>
 
